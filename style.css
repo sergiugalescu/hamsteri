@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1, b {
+    color: #1d266e;
+}
+
+p {
+    color: #252527;
+}
+
+#hamsters-title {
+    text-align: center;
+}
+
+.column-1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+.column-2 {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    padding-left: 5%;
+    height: 300px;
+}
+
+#hamster_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+li {
+    padding-bottom: 0.8em;
+    padding-top: 0.8em;
+}
+
+#hamster-rotita {
+    margin-left: 5em;
+}
